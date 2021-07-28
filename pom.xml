@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employee-database</name>
 	<description>Employee database</description>
+	<!--<packaging>war</packaging>  editei-->
 
 	<properties>
 		<java.version>8</java.version>
@@ -34,21 +35,21 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>-->
 		<!-- editei i -->
 		<dependency>
         		<groupId>org.postgresql</groupId>
         		<artifactId>postgresql</artifactId>
         		<version>42.2.2</version>
     		</dependency>
-		<dependency>
+		<!--<dependency>
         		<groupId>org.Apache.Tomcat</groupId>
        			<artifactId>Tomcat-jdbc</artifactId>
-   		</dependency>
+   		</dependency>-->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -74,7 +75,19 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- editei i -->
+			<!-- editei i
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.3</version>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
