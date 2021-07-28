@@ -46,10 +46,10 @@
         		<artifactId>postgresql</artifactId>
         		<version>42.2.2</version>
     		</dependency>
-		<dependency>
+		<!--<dependency>
         		<groupId>org.Apache.Tomcat</groupId>
        			<artifactId>Tomcat-jdbc</artifactId>
-   		</dependency>
+   		</dependency>-->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
