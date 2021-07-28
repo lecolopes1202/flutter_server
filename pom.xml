@@ -20,7 +20,7 @@
 	</properties>
 -->
 	<properties>
-        	<java.version>13.3</java.version>
+        	<java.version>1.8</java.version>
         	<downloadSources>true</downloadSources>
         	<downloadJavadocs>true</downloadJavadocs>
     	</properties>
