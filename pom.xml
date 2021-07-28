@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employee-database</name>
 	<description>Employee database</description>
-	<!--<packaging>war</packaging>  editei-->
+	<packaging>war</packaging> <!-- editei-->
 
 	<properties>
 		<java.version>8</java.version>
