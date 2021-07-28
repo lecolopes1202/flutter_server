@@ -45,10 +45,11 @@
     			<artifactId>postgresql</artifactId>
    			<version>9.4-1205-jdbc42</version>
 		</dependency>
+		<!--
 		<dependency>
         		<groupId>org.Apache.Tomcat</groupId>
        			<artifactId>Tomcat-jdbc</artifactId>
-   		</dependency>
+   		</dependency> -->
 		<!-- editei i -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
