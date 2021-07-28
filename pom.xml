@@ -44,17 +44,17 @@
 		<dependency>
         		<groupId>org.postgresql</groupId>
         		<artifactId>postgresql</artifactId>
-        		<version>42.2.2</version>
+        		<version>13.3</version>
     		</dependency>
 		<!--<dependency>
         		<groupId>org.Apache.Tomcat</groupId>
        			<artifactId>Tomcat-jdbc</artifactId>
    		</dependency>-->
-		<dependency>
+		<!--<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>5.5.3.Final</version>
-		</dependency>
+		</dependency>-->
 		<!--<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
