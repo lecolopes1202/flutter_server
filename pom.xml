@@ -50,7 +50,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- edit https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<!--xxxxxxx edit https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
