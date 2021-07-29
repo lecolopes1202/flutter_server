@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar *.jar
+web: java -Dserver.port=$PORT -jar target/employee-database-0.0.1-SNAPSHOT.jar

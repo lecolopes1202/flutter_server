@@ -12,9 +12,9 @@
 	<groupId>com.pxp</groupId>
 	<artifactId>employee-database</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>employee-database</name>
 	<description>Employee database</description>
-	<packaging>war</packaging>
 <!--
 	<properties>
 		<java.version>8</java.version>
