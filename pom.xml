@@ -13,11 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employee-database</name>
 	<description>Employee database</description>
-<!--
+
 	<properties>
 		<java.version>8</java.version>
 	</properties>
--->
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -60,6 +60,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
+			<version>42.2.23</version>
 		</dependency>
 
 	</dependencies>
