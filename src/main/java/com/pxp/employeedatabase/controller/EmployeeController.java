@@ -25,7 +25,7 @@ public class EmployeeController {
 		return employeeService.getAllEmployees();
 	}
 	
-	@RequestMapping(value = "addemployee", method = RequestMethod.POST)
+	@RequestMapping(value = "addemployee", method = RequestMethod.POST,consumes = "application/json")
 	public String addEmployee(@RequestBody EmployeeEntity employee) {
 		return employeeService.addEmployee(employee);
 	}
